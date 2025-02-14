@@ -1,0 +1,3 @@
+go to the linux  terminal git clone https://github.com/ghiyyadineshkumar/myrepo.git
+git log
+=====

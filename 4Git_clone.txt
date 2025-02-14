@@ -1,0 +1,4 @@
+create a new branch  
+in vs code  git branch design
+git branch
+git checkout design  ----means to swich branch

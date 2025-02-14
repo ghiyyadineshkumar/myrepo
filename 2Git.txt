@@ -10,7 +10,7 @@ git checkout  5dfa58b897b6f7476a226d0dbc60c862db9b83af --*     --- means which  
 
 git checkout master -- *     --- means latest version 
 ===========
-git restore
+git restore staged .
 git log -p -2  -- last two chages to see
 git log --stat summery of changes
 ====

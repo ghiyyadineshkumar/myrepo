@@ -1,0 +1,21 @@
+git reset --hard HEAD^   == previous commit
+git reset --soft 
+git log -p -1
+git log --pretty=oneline   == means all the commite shows in one line 
+============================================
+======local to git ====
+log to the git  https://github.com/ghiyyadineshkumar/myrepo    and create a repo
+push an existing repository from the command line
+git remote add origin https://github.com/ghiyyadineshkumar/myrepo.git
+git branch -M main  
+git push -u origin main
+==========
+git add index.html    to make a change 
+git commit -m "Remote check"
+git push
+then check https://github.com/ghiyyadineshkumar/myrepo.git
+git remote -v
+============================================
+======git to local  ====
+ https://github.com/ghiyyadineshkumar/myrepo.git   add the new file or modify the exit file 
+git pull
