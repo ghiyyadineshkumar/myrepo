@@ -1,0 +1,28 @@
+=======Git====
+git --version
+git config --global user.name "Dineshkumar Ghiyya"
+git config --global user.email "ghiyyadineshkumar@gmail.com"
+git config --list 
+git init
+ls -la
+  <create or add  new file>
+git status
+git add index.html   or git add *
+git status      
+git commit -m "First v1 of index.html"    --called as  staging area
+
+git branch
+git log
+ <h1>This is version v2<h1>    --index.html add or modification in index.html   
+Save the file
+git status 
+git diff
+git add index.html 
+git status 
+git commit -m "First v2 of index.html" 
+git log
+
+<h1>This is version v3<h1>  Save the file
+git add index.html 
+git status 
+git commit -m "First v3 of index.html"

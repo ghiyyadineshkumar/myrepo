@@ -1,0 +1,25 @@
+===Git====  https://www.youtube.com/watch?v=uwyP5SNlQAU   40 min   ghiyyadineshkumar@gmail.com
+version check  =========This is good for only one file checking for version ======
+git log
+=====then copy the gitID  ac256cbe204908e44cbf6331aaf185b019aac8af  
+git show ac256cbe204908e44cbf6331aaf185b019aac8af:index.html    ==  :index.html
+
+===========but more than one file or line of code is more than 1000 lines that time to use===
+more i want old version file 
+git checkout  5dfa58b897b6f7476a226d0dbc60c862db9b83af --*     --- means which  version you want 
+
+git checkout master -- *     --- means latest version 
+===========
+git restore
+git log -p -2  -- last two chages to see
+git log --stat summery of changes
+====
+git remote add origin ""
+git branch -M main
+git -push -u origin main
+<h1>This is version v2<h1>
+git commit -m "First v4 of index.html" 
+git -push 
+git remote  or git remote -v   ---- means to check the connection of remote and git 
+
+git clone 
