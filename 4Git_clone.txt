@@ -1,4 +1,22 @@
-create a new branch  
+create a new branch  https://www.youtube.com/watch?v=uwyP5SNlQAU
 in vs code  git branch design
 git branch
 git checkout design  ----means to swich branch
+git add *
+git commit -m "design branch"
+git status
+git log 
+x`
+git merge design
+git push
+git push origin design
+==========================
+.gitignore     ==== means In this file write the file name  like webcinfigfile, or password file  commite file 
+then save
+git status
+git add .gitignore
+git commit -m "gitignore file"
+git push
+==========================git clean
+git clean -n
+git clean -f
